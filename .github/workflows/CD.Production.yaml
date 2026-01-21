@@ -8,7 +8,7 @@ on:
    - master
 
 jobs:
- CD-Production:
+ CD_Production:
   runs-on: ubuntu-latest
   steps:
    - uses: actions/checkout@v2
